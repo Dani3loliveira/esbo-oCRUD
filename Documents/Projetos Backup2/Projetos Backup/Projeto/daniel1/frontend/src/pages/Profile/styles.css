@@ -1,0 +1,117 @@
+.configdeprofile{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+}
+
+
+.configdeprofile ul{
+    display:grid;
+    grid-template-columns: repeat(3);
+    grid-gap: 24px;
+    list-style: none;
+}
+
+.configdeprofile ul li{
+    background: #808080;
+    padding: 30px;
+    border-radius: 8px;
+    position:relative;
+}
+
+.configdeprofile ul li button{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border:0;
+
+}
+
+.configdeprofile ul li button:hover{
+    opacity:0.9;
+}
+
+.configdeprofile header button{
+    height: 60px;
+    width: 350px;
+    background: #808080;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    margin-left: 16px;
+    transition: filter 0.4s;
+
+}
+
+.buttonblue{
+    width: 100%;
+    height: 60px;
+    background: #4040ff;
+    border: 0px;;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight:400;
+    margin-top:16px;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size:14px;
+    line-height:40px;
+    transition: filter 0.4s;
+}
+
+.buttongreen{
+    width: 100%;
+    height: 60px;
+    background: #008000;
+    border: 0px;;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight:400;
+    margin-top:16px;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size:14px;
+    line-height:40px;
+    transition: filter 0.2s;
+    
+}
+
+.buttongrey{
+    width: 100%;
+    height: 60px;
+    background: #c0c0c0;
+    border: 0px;;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight:400;
+    margin-top:16px;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size:14px;
+    line-height:40px;
+    transition: filter 0.2s;
+}
+
+.buttonblue:hover{
+    filter: brightness(70%);
+}
+
+.buttongreen:hover{
+    filter: brightness(70%);
+}
+
+
+.buttongrey:hover{
+    filter: brightness(70%);
+}
+
+.configdeprofile:hover{
+    filter: brightness(70%);
+}
+
+

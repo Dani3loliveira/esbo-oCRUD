@@ -1,0 +1,56 @@
+.configdelogon{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+        
+
+}
+
+.buttonblue{
+    width: 100%;
+    height: 60px;
+    background: #4040ff;
+    border: 0px;;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight:400;
+    margin-top:16px;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size:14px;
+    line-height:40px;
+    transition: filter 0.4s;
+}
+
+.buttongreen{
+    width: 100%;
+    height: 60px;
+    background: #008000;
+    border: 0px;;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight:400;
+    margin-top:16px;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size:14px;
+    line-height:40px;
+    transition: filter 0.2s;
+    
+}
+
+.buttonblue:hover{
+    filter: brightness(70%);
+}
+
+.buttongreen:hover{
+    filter: brightness(70%);
+}
+
+
+
